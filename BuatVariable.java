@@ -1,13 +1,13 @@
 public class BuatVariable {
     public static void main(String[] args) {
         String name; // deklarasi
-        name = "Benaya Rizky Sipayung"; //
+        name = "Benaya Rizky Sipayung";
 
-        String showwInfo = "Nama saya " + name;
+        String showInfo = "Nama saya " + name;
+        // final -. constanta
+        final float nilaiPhytagoras = 3.14F;
+        //nilaiPhytagoras = 1.3f;
 
-        String universitasAdventIndonesia;
-
-        int benaya = 10;
-        System.out.println(showwInfo);
+        System.out.println(showInfo);
     }
 }
